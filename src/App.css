@@ -1,0 +1,56 @@
+.head
+{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(222, 227, 227);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.topnav
+{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.topnav li{
+    list-style: none;
+    width: 120px;
+    float: left;
+}
+.topnav a
+{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    padding: 14px 16px;
+    
+}
+.topnav a:hover{
+       color: rgb(0, 0, 0);
+}
+#coffee
+{
+    background-color: rgb(222, 227, 227);
+    display: flex;
+    justify-content: space-around;
+ 
+}
+#tea
+{
+    background-color: rgb(222, 227, 227);
+    display: flex;
+    justify-content: space-around;
+}
+#pastries
+{
+    background-color: rgb(222, 227, 227);
+    display: flex;
+    justify-content: space-around;
+}
+#cart
+{
+    background-color:rgb(222, 227, 227);
+    display: flex;
+    justify-content: space-around;
+}
